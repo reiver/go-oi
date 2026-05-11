@@ -10,5 +10,6 @@ const (
 	ErrDeadLinedReaderNil = erorr.Error("nil oi.DeadLinedReader")
 	ErrDeadLinedWriterNil = erorr.Error("nil oi.DeadLinedWriter")
 	ErrReaderAtNil        = erorr.Error("nil io.ReaderAt")
+	ErrReaderNil          = erorr.Error("nil reader")
 	ErrReceiverNil        = erorr.Error("nil receiver")
 )
