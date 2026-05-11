@@ -12,4 +12,5 @@ const (
 	ErrReaderAtNil        = erorr.Error("nil io.ReaderAt")
 	ErrReaderNil          = erorr.Error("nil reader")
 	ErrReceiverNil        = erorr.Error("nil receiver")
+	ErrWriterNil          = erorr.Error("nil writer")
 )
