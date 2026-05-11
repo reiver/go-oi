@@ -6,9 +6,6 @@ import (
 
 
 const (
-	ErrReceiverNil = errors.New("nil receiver")
-)
-
-var (
-	errNilReaderAt = errors.New("oi. Nil io.ReaderAt")
+	ErrReaderAtNil = erorr.Error("nil io.ReaderAt")
+	ErrReceiverNil = erorr.Error("nil receiver")
 )

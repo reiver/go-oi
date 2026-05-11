@@ -29,7 +29,7 @@ func (receiver *internalReadSeeker) Read(p []byte) (n int, err error) {
 
 	readerAt := receiver.readerAt
 	if nil == readerAt {
-		return 0, errNilReaderAt
+		return 0, ErrReaderAtNil
 	}
 
 	n, err = readerAt.ReadAt(p, receiver.offset)
@@ -45,7 +45,7 @@ func (receiver *internalReadSeeker) Seek(offset int64, whence int) (int64, error
 
 	readerAt := receiver.readerAt
 	if nil == readerAt {
-		return 0, errNilReaderAt
+		return 0, ErrReaderAtNil
 	}
 
 	var size int64 = -1
