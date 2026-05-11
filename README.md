@@ -8,6 +8,7 @@ interface, that it is possible that not everything was be written?!
 I.e., that a _**short write**_ happened.
 
 That just doing the following is (in general) **not** enough:
+
 ```
 n, err := writer.Write(p)
 ```
@@ -17,6 +18,7 @@ method again but only with what didn't get written.
 
 For a simple example of this (that actually is **not** sufficient to solve this problem, but illustrates
 the direction you would need to go to solve this problem is):
+
 ```
 n, err := w.Write(p)
 
@@ -33,6 +35,7 @@ against looping forever, and also possibly looping for "too long".
 
 Well package **oi** provides tools that helps you deal with this and other problems. For example, you
 can handle a _**short write**_ with the following **oi** func:
+
 ```
 n, err := oi.LongWrite(writer, p)
 ```
@@ -46,6 +49,7 @@ Online documentation, which includes examples, can be found at: http://godoc.org
 
 
 ## Example
+
 ```
 import (
 	"github.com/reiver/go-oi"
