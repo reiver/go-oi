@@ -62,3 +62,23 @@ if nil != err {
 }
 
 ```
+
+## Import
+
+To import package **oi** use `import` code like the follownig:
+
+```
+import "github.com/reiver/go-oi"
+```
+
+## Installation
+
+To install package **oi** do the following:
+
+```
+GOPROXY=direct go get https://github.com/reiver/go-oi
+```
+
+## Author
+
+Package **oi** was written by [Charles Iliya Krempeaux](http://reiver.link)
