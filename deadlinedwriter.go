@@ -23,7 +23,7 @@ type internalDeadLinedWriterWrapper struct {
 var _ Writer = internalDeadLinedWriterWrapper{}
 
 // CastDeadLinedWriter returns a [Writer] based on a [DeadLinedWriter] (such as [net.Conn]).
-func CreateWriter(dw DeadLinedWriter) Writer {
+func CastDeadLinedWriter(dw DeadLinedWriter) Writer {
 	if nil == dw {
 		return nil
 	}
