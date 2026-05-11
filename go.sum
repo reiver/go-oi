@@ -1,0 +1,8 @@
+codeberg.org/reiver/go-erorr v0.0.0-20260509033006-5ff6fb3009f8 h1:es9Eqp/T4MwWnuXxckiAi4BrY9mWSt2v03c2lEcZXZY=
+codeberg.org/reiver/go-erorr v0.0.0-20260509033006-5ff6fb3009f8/go.mod h1:+Saq1zyG5OLc5K5PW2Kt7CkXQyiJNX0+lC18/XFeSrY=
+codeberg.org/reiver/go-field v0.0.0-20260509032856-5b4f754dc77e h1:wUa4WGPsVMu+nIhoIHa3k0KuJMIvv8bKbc4QuNJAlso=
+codeberg.org/reiver/go-field v0.0.0-20260509032856-5b4f754dc77e/go.mod h1:752EzuARz/8LnYzfPcxBFIIKstqok9fyTUmi5qnjn+Q=
+github.com/reiver/go-calltrace v0.0.0-20251216205616-3931a8c7b154 h1:3w3kacKCTHArAMZenoEO2qssZzJiQ9G8ZJgEvKerbuE=
+github.com/reiver/go-calltrace v0.0.0-20251216205616-3931a8c7b154/go.mod h1:b9j4dbN++ed+soAS/+wSCZ+OsZSm3CWiuzxps8nzkew=
+golang.org/x/exp v0.0.0-20251125195548-87e1e737ad39 h1:DHNhtq3sNNzrvduZZIiFyXWOL9IWaDPHqTnLJp+rCBY=
+golang.org/x/exp v0.0.0-20251125195548-87e1e737ad39/go.mod h1:46edojNIoXTNOhySWIWdix628clX9ODXwPsQuG6hsK0=

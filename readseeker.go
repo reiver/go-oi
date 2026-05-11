@@ -24,7 +24,7 @@ type internalReadSeeker struct {
 
 func (receiver *internalReadSeeker) Read(p []byte) (n int, err error) {
 	if nil == receiver {
-		return 0, errNilReceiver
+		return 0, ErrReceiverNil
 	}
 
 	readerAt := receiver.readerAt
@@ -40,7 +40,7 @@ func (receiver *internalReadSeeker) Read(p []byte) (n int, err error) {
 
 func (receiver *internalReadSeeker) Seek(offset int64, whence int) (int64, error) {
 	if nil == receiver {
-		return 0, errNilReceiver
+		return 0, ErrReceiverNil
 	}
 
 	readerAt := receiver.readerAt
