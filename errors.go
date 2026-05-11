@@ -6,6 +6,8 @@ import (
 
 
 const (
-	ErrReaderAtNil = erorr.Error("nil io.ReaderAt")
-	ErrReceiverNil = erorr.Error("nil receiver")
+	ErrContextInvalid     = erorr.Error("context invalid")
+	ErrDeadLinedWriterNil = erorr.Error("nil oi.DeadLinedWriter")
+	ErrReaderAtNil        = erorr.Error("nil io.ReaderAt")
+	ErrReceiverNil        = erorr.Error("nil receiver")
 )
